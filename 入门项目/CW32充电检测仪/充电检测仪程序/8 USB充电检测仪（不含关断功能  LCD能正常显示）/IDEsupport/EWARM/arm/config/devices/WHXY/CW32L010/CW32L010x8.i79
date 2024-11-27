@@ -1,0 +1,28 @@
+[FILEFORMAT]
+rev=1.6
+
+[CHIP]
+name=CW32L010x8
+endiansupport=le
+thumbsupport=true
+armsupport=false
+fpu=None
+SIMD=false
+
+
+
+JTAG=false
+SWD=true
+SWO_TraceD0=false
+
+[CORE]
+name=Cortex-M0+
+
+[DDF FILE]
+name=WHXY/CW32L010x8.ddf
+
+[LINKER FILE]
+name=$TOOLKIT_DIR$/config/linker/WHXY/CW32L010x8.icf
+
+[FLASH LOADER]
+little=$TOOLKIT_DIR$/config/flashloader/WHXY/FlashCW32L010x8.board

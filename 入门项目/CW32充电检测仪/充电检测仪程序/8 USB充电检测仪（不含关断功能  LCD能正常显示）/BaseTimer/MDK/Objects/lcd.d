@@ -1,0 +1,11 @@
+.\objects\lcd.o: ..\GUI\lcd.c
+.\objects\lcd.o: ..\GUI\lcd.h
+.\objects\lcd.o: ..\..\Libraries\inc\cw32l010.h
+.\objects\lcd.o: D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h
+.\objects\lcd.o: D:\install\keil\ARM\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\lcd.o: D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\lcd.o: D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\lcd.o: D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\lcd.o: ..\GUI\lcd_drive\lcd_init.h
+.\objects\lcd.o: ..\GUI\lcdfont.h
+.\objects\lcd.o: ..\GUI\cn.h

@@ -1,0 +1,13 @@
+.\objects\system_cw32l010.o: ..\..\Libraries\src\system_cw32l010.c
+.\objects\system_cw32l010.o: ..\..\Libraries\inc\system_cw32l010.h
+.\objects\system_cw32l010.o: ..\..\Libraries\inc\cw32l010.h
+.\objects\system_cw32l010.o: D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h
+.\objects\system_cw32l010.o: D:\install\keil\ARM\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\system_cw32l010.o: D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\system_cw32l010.o: D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\system_cw32l010.o: D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\system_cw32l010.o: ..\..\Libraries\inc\base_types.h
+.\objects\system_cw32l010.o: D:\install\keil\ARM\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\system_cw32l010.o: D:\install\keil\ARM\ARM\ARMCC\Bin\..\include\string.h
+.\objects\system_cw32l010.o: D:\install\keil\ARM\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\system_cw32l010.o: D:\install\keil\ARM\ARM\ARMCC\Bin\..\include\assert.h

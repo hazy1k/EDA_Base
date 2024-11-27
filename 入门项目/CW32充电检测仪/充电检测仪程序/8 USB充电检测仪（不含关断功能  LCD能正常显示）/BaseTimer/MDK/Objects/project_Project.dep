@@ -1,0 +1,252 @@
+Dependencies for Project 'project', Target 'Project': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (..\..\Libraries\src\system_cw32l010.c)(0x6719A220)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\USER\inc -I ..\..\Libraries\src -I ..\..\Libraries\inc -I ..\..\IDEsupport\MDK -I ..\..\Libraries\inc -I ..\GUI -I ..\GUI\lcd_drive-I.\RTE\_Project-ID:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\install\keil\ARM\packs\WHXY\CW32L01x_DFP\1.0.0\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -D_RTE_-o .\objects\system_cw32l010.o --omf_browse .\objects\system_cw32l010.crf --depend .\objects\system_cw32l010.d)
+I (..\..\Libraries\inc\system_cw32l010.h)(0x66A70C78)
+I (..\..\Libraries\inc\cw32l010.h)(0x66A70C78)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (..\..\Libraries\inc\base_types.h)(0x66A70C78)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\string.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\assert.h)(0x5E53505A)
+F (..\..\IDEsupport\MDK\startup_cw32l010.s)(0x66A70C78)(--cpu Cortex-M0+ -g --apcs=interwork -I.\RTE\_Project-ID:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\install\keil\ARM\packs\WHXY\CW32L01x_DFP\1.0.0\Device\Include--pd "__UVISION_VERSION SETA 530" --pd "_RTE_ SETA 1" --pd "_RTE_ SETA 1"-o .\objects\startup_cw32l010.o --depend .\objects\startup_cw32l010.d)
+F (..\USER\src\main.c)(0x67243F30)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\USER\inc -I ..\..\Libraries\src -I ..\..\Libraries\inc -I ..\..\IDEsupport\MDK -I ..\..\Libraries\inc -I ..\GUI -I ..\GUI\lcd_drive-I.\RTE\_Project-ID:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\install\keil\ARM\packs\WHXY\CW32L01x_DFP\1.0.0\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\USER\inc\main.h)(0x668A4928)
+I (..\..\Libraries\inc\base_types.h)(0x66A70C78)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\string.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\assert.h)(0x5E53505A)
+I (..\..\Libraries\inc\cw32l010.h)(0x66A70C78)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (..\..\Libraries\inc\system_cw32l010.h)(0x66A70C78)
+I (..\USER\inc\interrupts_cw32l010.h)(0x6612143E)
+I (..\..\Libraries\inc\cw32l010_btim.h)(0x66A70C78)
+I (..\..\Libraries\inc\cw32l010_sysctrl.h)(0x6718CBAC)
+I (..\..\Libraries\inc\cw32l010_gpio.h)(0x66A70C78)
+I (..\USER\inc\seg.h)(0x66E18D42)
+I (..\USER\inc\adc.h)(0x6720A012)
+I (..\..\Libraries\inc\cw32l010_adc.h)(0x66A70C78)
+I (..\USER\inc\flash.h)(0x668B3640)
+I (..\..\Libraries\inc\cw32l010_flash.h)(0x66A70C78)
+I (..\..\Libraries\inc\cw32l010_systick.h)(0x66A70C78)
+I (..\GUI\lcd.h)(0x6721CE28)
+I (..\GUI\lcd_drive\lcd_init.h)(0x66F69264)
+I (..\GUI\logo.h)(0x671763B0)
+I (..\GUI\timer.h)(0x67218B51)
+I (..\GUI\ntc.h)(0x67242F69)
+F (..\USER\src\interrupts_cw32l010.c)(0x66B43C04)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\USER\inc -I ..\..\Libraries\src -I ..\..\Libraries\inc -I ..\..\IDEsupport\MDK -I ..\..\Libraries\inc -I ..\GUI -I ..\GUI\lcd_drive-I.\RTE\_Project-ID:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\install\keil\ARM\packs\WHXY\CW32L01x_DFP\1.0.0\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -D_RTE_-o .\objects\interrupts_cw32l010.o --omf_browse .\objects\interrupts_cw32l010.crf --depend .\objects\interrupts_cw32l010.d)
+I (..\USER\src\..\inc\main.h)(0x668A4928)
+I (..\..\Libraries\inc\base_types.h)(0x66A70C78)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\string.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\assert.h)(0x5E53505A)
+I (..\..\Libraries\inc\cw32l010.h)(0x66A70C78)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (..\..\Libraries\inc\system_cw32l010.h)(0x66A70C78)
+I (..\USER\src\..\inc\interrupts_cw32l010.h)(0x6612143E)
+I (..\..\Libraries\inc\cw32l010_btim.h)(0x66A70C78)
+I (..\..\Libraries\inc\cw32l010_sysctrl.h)(0x6718CBAC)
+I (..\..\Libraries\inc\cw32l010_gpio.h)(0x66A70C78)
+F (..\USER\src\ADC.C)(0x6722FE21)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\USER\inc -I ..\..\Libraries\src -I ..\..\Libraries\inc -I ..\..\IDEsupport\MDK -I ..\..\Libraries\inc -I ..\GUI -I ..\GUI\lcd_drive-I.\RTE\_Project-ID:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\install\keil\ARM\packs\WHXY\CW32L01x_DFP\1.0.0\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -D_RTE_-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (..\USER\inc\ADC.h)(0x6720A012)
+I (..\..\Libraries\inc\cw32l010_adc.h)(0x66A70C78)
+I (..\..\Libraries\inc\system_cw32l010.h)(0x66A70C78)
+I (..\..\Libraries\inc\cw32l010.h)(0x66A70C78)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (..\..\Libraries\inc\base_types.h)(0x66A70C78)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\string.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\assert.h)(0x5E53505A)
+I (..\..\Libraries\inc\cw32l010_gpio.h)(0x66A70C78)
+I (..\..\Libraries\inc\cw32l010_sysctrl.h)(0x6718CBAC)
+F (..\USER\src\flash.c)(0x668E5D5E)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\USER\inc -I ..\..\Libraries\src -I ..\..\Libraries\inc -I ..\..\IDEsupport\MDK -I ..\..\Libraries\inc -I ..\GUI -I ..\GUI\lcd_drive-I.\RTE\_Project-ID:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\install\keil\ARM\packs\WHXY\CW32L01x_DFP\1.0.0\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -D_RTE_-o .\objects\flash.o --omf_browse .\objects\flash.crf --depend .\objects\flash.d)
+I (..\USER\inc\flash.h)(0x668B3640)
+I (..\..\Libraries\inc\cw32l010_flash.h)(0x66A70C78)
+I (..\..\Libraries\inc\system_cw32l010.h)(0x66A70C78)
+I (..\..\Libraries\inc\cw32l010.h)(0x66A70C78)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (..\..\Libraries\inc\base_types.h)(0x66A70C78)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\string.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\assert.h)(0x5E53505A)
+F (..\..\Libraries\src\cw32l010_sysctrl.c)(0x66A70C78)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\USER\inc -I ..\..\Libraries\src -I ..\..\Libraries\inc -I ..\..\IDEsupport\MDK -I ..\..\Libraries\inc -I ..\GUI -I ..\GUI\lcd_drive-I.\RTE\_Project-ID:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\install\keil\ARM\packs\WHXY\CW32L01x_DFP\1.0.0\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -D_RTE_-o .\objects\cw32l010_sysctrl.o --omf_browse .\objects\cw32l010_sysctrl.crf --depend .\objects\cw32l010_sysctrl.d)
+I (..\..\Libraries\inc\cw32l010_sysctrl.h)(0x6718CBAC)
+I (..\..\Libraries\inc\system_cw32l010.h)(0x66A70C78)
+I (..\..\Libraries\inc\cw32l010.h)(0x66A70C78)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (..\..\Libraries\inc\base_types.h)(0x66A70C78)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\string.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\assert.h)(0x5E53505A)
+F (..\..\Libraries\src\cw32l010_gpio.c)(0x66A70C78)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\USER\inc -I ..\..\Libraries\src -I ..\..\Libraries\inc -I ..\..\IDEsupport\MDK -I ..\..\Libraries\inc -I ..\GUI -I ..\GUI\lcd_drive-I.\RTE\_Project-ID:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\install\keil\ARM\packs\WHXY\CW32L01x_DFP\1.0.0\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -D_RTE_-o .\objects\cw32l010_gpio.o --omf_browse .\objects\cw32l010_gpio.crf --depend .\objects\cw32l010_gpio.d)
+I (..\..\Libraries\inc\cw32l010_gpio.h)(0x66A70C78)
+I (..\..\Libraries\inc\system_cw32l010.h)(0x66A70C78)
+I (..\..\Libraries\inc\cw32l010.h)(0x66A70C78)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (..\..\Libraries\inc\base_types.h)(0x66A70C78)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\string.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\assert.h)(0x5E53505A)
+I (..\..\Libraries\inc\cw32l010_sysctrl.h)(0x6718CBAC)
+F (..\..\Libraries\src\cw32l010_btim.c)(0x66A70C78)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\USER\inc -I ..\..\Libraries\src -I ..\..\Libraries\inc -I ..\..\IDEsupport\MDK -I ..\..\Libraries\inc -I ..\GUI -I ..\GUI\lcd_drive-I.\RTE\_Project-ID:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\install\keil\ARM\packs\WHXY\CW32L01x_DFP\1.0.0\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -D_RTE_-o .\objects\cw32l010_btim.o --omf_browse .\objects\cw32l010_btim.crf --depend .\objects\cw32l010_btim.d)
+I (..\..\Libraries\inc\cw32l010_btim.h)(0x66A70C78)
+I (..\..\Libraries\inc\system_cw32l010.h)(0x66A70C78)
+I (..\..\Libraries\inc\cw32l010.h)(0x66A70C78)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (..\..\Libraries\inc\base_types.h)(0x66A70C78)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\string.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\assert.h)(0x5E53505A)
+I (..\..\Libraries\inc\cw32l010_sysctrl.h)(0x6718CBAC)
+F (..\..\Libraries\src\cw32l010_adc.c)(0x66A70C78)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\USER\inc -I ..\..\Libraries\src -I ..\..\Libraries\inc -I ..\..\IDEsupport\MDK -I ..\..\Libraries\inc -I ..\GUI -I ..\GUI\lcd_drive-I.\RTE\_Project-ID:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\install\keil\ARM\packs\WHXY\CW32L01x_DFP\1.0.0\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -D_RTE_-o .\objects\cw32l010_adc.o --omf_browse .\objects\cw32l010_adc.crf --depend .\objects\cw32l010_adc.d)
+I (..\..\Libraries\inc\cw32l010.h)(0x66A70C78)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (..\..\Libraries\inc\cw32l010_adc.h)(0x66A70C78)
+I (..\..\Libraries\inc\system_cw32l010.h)(0x66A70C78)
+I (..\..\Libraries\inc\base_types.h)(0x66A70C78)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\string.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\assert.h)(0x5E53505A)
+I (..\..\Libraries\inc\cw32l010_gpio.h)(0x66A70C78)
+I (..\..\Libraries\inc\cw32l010_sysctrl.h)(0x6718CBAC)
+F (..\..\Libraries\src\cw32l010_flash.c)(0x66A70C78)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\USER\inc -I ..\..\Libraries\src -I ..\..\Libraries\inc -I ..\..\IDEsupport\MDK -I ..\..\Libraries\inc -I ..\GUI -I ..\GUI\lcd_drive-I.\RTE\_Project-ID:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\install\keil\ARM\packs\WHXY\CW32L01x_DFP\1.0.0\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -D_RTE_-o .\objects\cw32l010_flash.o --omf_browse .\objects\cw32l010_flash.crf --depend .\objects\cw32l010_flash.d)
+I (..\..\Libraries\inc\cw32l010_flash.h)(0x66A70C78)
+I (..\..\Libraries\inc\system_cw32l010.h)(0x66A70C78)
+I (..\..\Libraries\inc\cw32l010.h)(0x66A70C78)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (..\..\Libraries\inc\base_types.h)(0x66A70C78)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\string.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\assert.h)(0x5E53505A)
+F (..\..\Libraries\src\cw32l010_systick.c)(0x66A70C78)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\USER\inc -I ..\..\Libraries\src -I ..\..\Libraries\inc -I ..\..\IDEsupport\MDK -I ..\..\Libraries\inc -I ..\GUI -I ..\GUI\lcd_drive-I.\RTE\_Project-ID:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\install\keil\ARM\packs\WHXY\CW32L01x_DFP\1.0.0\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -D_RTE_-o .\objects\cw32l010_systick.o --omf_browse .\objects\cw32l010_systick.crf --depend .\objects\cw32l010_systick.d)
+I (..\..\Libraries\inc\cw32l010_systick.h)(0x66A70C78)
+I (..\..\Libraries\inc\base_types.h)(0x66A70C78)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\string.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\assert.h)(0x5E53505A)
+I (..\..\Libraries\inc\cw32l010.h)(0x66A70C78)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+F (..\..\Libraries\src\cw32l010_spi.c)(0x66A70C78)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\USER\inc -I ..\..\Libraries\src -I ..\..\Libraries\inc -I ..\..\IDEsupport\MDK -I ..\..\Libraries\inc -I ..\GUI -I ..\GUI\lcd_drive-I.\RTE\_Project-ID:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\install\keil\ARM\packs\WHXY\CW32L01x_DFP\1.0.0\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -D_RTE_-o .\objects\cw32l010_spi.o --omf_browse .\objects\cw32l010_spi.crf --depend .\objects\cw32l010_spi.d)
+I (..\..\Libraries\inc\cw32l010_spi.h)(0x66A70C78)
+I (..\..\Libraries\inc\system_cw32l010.h)(0x66A70C78)
+I (..\..\Libraries\inc\cw32l010.h)(0x66A70C78)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (..\..\Libraries\inc\base_types.h)(0x66A70C78)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\string.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\assert.h)(0x5E53505A)
+F (..\readme.txt)(0x6612143E)()
+F (..\GUI\lcd_drive\lcd_init.c)(0x6716FDEE)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\USER\inc -I ..\..\Libraries\src -I ..\..\Libraries\inc -I ..\..\IDEsupport\MDK -I ..\..\Libraries\inc -I ..\GUI -I ..\GUI\lcd_drive-I.\RTE\_Project-ID:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\install\keil\ARM\packs\WHXY\CW32L01x_DFP\1.0.0\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -D_RTE_-o .\objects\lcd_init.o --omf_browse .\objects\lcd_init.crf --depend .\objects\lcd_init.d)
+I (..\GUI\lcd_drive\lcd_init.h)(0x66F69264)
+I (..\..\Libraries\inc\cw32L010.h)(0x66A70C78)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (..\USER\inc\main.h)(0x668A4928)
+I (..\..\Libraries\inc\base_types.h)(0x66A70C78)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\string.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\assert.h)(0x5E53505A)
+I (..\..\Libraries\inc\system_cw32l010.h)(0x66A70C78)
+I (..\USER\inc\interrupts_cw32l010.h)(0x6612143E)
+I (..\..\Libraries\inc\cw32l010_btim.h)(0x66A70C78)
+I (..\..\Libraries\inc\cw32l010_sysctrl.h)(0x6718CBAC)
+I (..\..\Libraries\inc\cw32l010_gpio.h)(0x66A70C78)
+I (..\..\Libraries\inc\cw32l010_spi.h)(0x66A70C78)
+F (..\GUI\lcd.c)(0x6721D6DC)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\USER\inc -I ..\..\Libraries\src -I ..\..\Libraries\inc -I ..\..\IDEsupport\MDK -I ..\..\Libraries\inc -I ..\GUI -I ..\GUI\lcd_drive-I.\RTE\_Project-ID:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\install\keil\ARM\packs\WHXY\CW32L01x_DFP\1.0.0\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -D_RTE_-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
+I (..\GUI\lcd.h)(0x6721CE28)
+I (..\..\Libraries\inc\cw32l010.h)(0x66A70C78)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (..\GUI\lcd_drive\lcd_init.h)(0x66F69264)
+I (..\GUI\lcdfont.h)(0x67242428)
+I (..\GUI\cn.h)(0x67218EB2)
+F (..\GUI\timer.c)(0x6721DFC6)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\USER\inc -I ..\..\Libraries\src -I ..\..\Libraries\inc -I ..\..\IDEsupport\MDK -I ..\..\Libraries\inc -I ..\GUI -I ..\GUI\lcd_drive-I.\RTE\_Project-ID:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\install\keil\ARM\packs\WHXY\CW32L01x_DFP\1.0.0\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -D_RTE_-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (..\GUI\timer.h)(0x67218B51)
+I (..\..\Libraries\inc\cw32l010.h)(0x66A70C78)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (..\..\Libraries\inc\cw32l010_sysctrl.h)(0x6718CBAC)
+I (..\..\Libraries\inc\system_cw32l010.h)(0x66A70C78)
+I (..\..\Libraries\inc\base_types.h)(0x66A70C78)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\string.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stddef.h)(0x5E53505C)
+I (D:\install\keil\ARM\ARM\ARMCC\include\assert.h)(0x5E53505A)
+I (..\..\Libraries\inc\cw32l010_btim.h)(0x66A70C78)
+F (..\GUI\ntc.c)(0x67242F64)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\USER\inc -I ..\..\Libraries\src -I ..\..\Libraries\inc -I ..\..\IDEsupport\MDK -I ..\..\Libraries\inc -I ..\GUI -I ..\GUI\lcd_drive-I.\RTE\_Project-ID:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\install\keil\ARM\packs\WHXY\CW32L01x_DFP\1.0.0\Device\Include-D__UVISION_VERSION="530" -D_RTE_ -D_RTE_-o .\objects\ntc.o --omf_browse .\objects\ntc.crf --depend .\objects\ntc.d)
+I (..\GUI\ntc.h)(0x67242F69)
+I (..\..\Libraries\inc\cw32l010.h)(0x66A70C78)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (D:\install\keil\ARM\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<flash_device>
+  <exe>$TOOLKIT_DIR$/config/flashloader/WHXY/FlashCW32L010x8.out</exe>
+  <page>1</page>
+  <block>128 0x200</block>
+  <flash_base>0x00000000</flash_base>
+</flash_device>

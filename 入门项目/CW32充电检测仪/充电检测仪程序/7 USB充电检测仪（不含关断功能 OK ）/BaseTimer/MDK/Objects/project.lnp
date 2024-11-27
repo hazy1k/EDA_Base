@@ -1,0 +1,19 @@
+--cpu Cortex-M0+
+".\objects\system_cw32l010.o"
+".\objects\startup_cw32l010.o"
+".\objects\main.o"
+".\objects\interrupts_cw32l010.o"
+".\objects\seg.o"
+".\objects\adc.o"
+".\objects\flash.o"
+".\objects\cw32l010_sysctrl.o"
+".\objects\cw32l010_gpio.o"
+".\objects\cw32l010_btim.o"
+".\objects\cw32l010_adc.o"
+".\objects\cw32l010_flash.o"
+".\objects\cw32l010_systick.o"
+".\objects\ntc.o"
+--strict --scatter ".\Objects\project.sct"
+--keep=*Handler --summary_stderr --info summarysizes --map --load_addr_map_info --symbols
+--info sizes --info totals
+--list ".\output\list\project.map" -o .\Objects\project.axf

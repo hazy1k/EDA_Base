@@ -1,0 +1,16 @@
+.\objects\timer.o: ..\GUI\timer.c
+.\objects\timer.o: ..\GUI\timer.h
+.\objects\timer.o: ..\..\Libraries\inc\cw32l010.h
+.\objects\timer.o: D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h
+.\objects\timer.o: D:\install\keil\ARM\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\timer.o: D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\timer.o: D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\timer.o: D:\install\keil\ARM\packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\timer.o: ..\..\Libraries\inc\cw32l010_sysctrl.h
+.\objects\timer.o: ..\..\Libraries\inc\system_cw32l010.h
+.\objects\timer.o: ..\..\Libraries\inc\base_types.h
+.\objects\timer.o: D:\install\keil\ARM\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\timer.o: D:\install\keil\ARM\ARM\ARMCC\Bin\..\include\string.h
+.\objects\timer.o: D:\install\keil\ARM\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\timer.o: D:\install\keil\ARM\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\timer.o: ..\..\Libraries\inc\cw32l010_btim.h
